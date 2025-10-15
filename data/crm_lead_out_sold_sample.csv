@@ -1,0 +1,8 @@
+crm_id_join,crm_id,product,product_id,stage_id,stage_product,report_date,write_date,thuonghieuphanquyen,brand_etl,clineid,ordinal_consult,booking_id,booking_guarantee_id,rn_product_toconcat,str_agg_product_crm,max_write_date
+"1001,1001,Phòng Standard,1,22,Outsold,2025-02-15,2025-02-14,1,BrandA,1,1,1001.0,5001.0,1.0,""Phòng Standard"
+"Phòng Deluxe"",2025-03-10"
+1001,1001,Phòng Deluxe,2,10,Active,2025-02-15,2025-02-14,1,BrandA,2,1,1001.0,5001.0,1.0,Phòng Standard
+Phòng Deluxe,2025-03-10
+1002,1002,Tour ?à N?ng,3,15,Pending,2025-03-10,2025-03-09,1,BrandB,1,1,,,1.0,Phòng Suite,2025-03-10
+1003,1003,Phòng Suite,4,23,Cancel,2025-03-10,2025-03-09,1,BrandA,1,1,,,1.0,,2025-03-10
+1003,1003,D?ch v? ph?,5,8,Active,2025-03-10,2025-03-09,1,BrandA,1,1,,,,,2025-03-10
