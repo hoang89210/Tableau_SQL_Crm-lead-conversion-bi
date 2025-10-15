@@ -39,7 +39,7 @@ Dựa trên main query (WITH CTE max_write_date, row_number partition by crm_id/
 - **Data Prep**: Pandas nếu cần clean CSV.
 
 ### Usage
-1. Clone: `git clone https://github.com/[username]/crm-lead-conversion-bi.git`
+1. Clone: `git clone https://github.com/[hoang89210]/crm-lead-conversion-bi.git`
 2. Run main query: `psql -d dbname -f queries/main_query.sql > output.csv` (import vào Tableau).
 3. View analysis: Open `data/crm_lead_out_sold_sample.csv` hoặc `reports/conversion_report.pdf`.
 4. Insights: Check queries/analysis_queries.sql cho custom metrics.
@@ -66,7 +66,6 @@ SELECT db.crm_id crm_id_join, db.*,
 FROM db
 ORDER BY crm_id, clineid, ordinal_consult;
 
-
-#
 🤝 Author
-hoang89210- BI Analyst
+hoang89210 – CRM BI Analyst
+Star nếu hữu ích! 🌟 Questions? Open issue.
